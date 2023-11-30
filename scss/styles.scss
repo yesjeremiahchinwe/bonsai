@@ -710,6 +710,7 @@ body {
             margin: 0 0 5rem;
             overflow-x: hidden;
             padding: 1rem 0 2rem;
+            min-height: 50vh;
 
             h2 {
                 text-align: center;
@@ -809,7 +810,7 @@ body {
                 margin: 0 auto 8rem;
                 padding-bottom: 18rem;
                 z-index: 2;
-                min-height: 100vh;
+                min-height: 70vh;
 
                 h2 {
                     font-size: 3rem;
@@ -884,7 +885,6 @@ body {
             display: flex;
             flex-direction: column;
             gap: 1rem;
-            min-height: 100vh;
 
             .accordion-button {
                 font-size: 1.5rem;
