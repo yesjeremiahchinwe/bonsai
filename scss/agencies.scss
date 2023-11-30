@@ -1,0 +1,36 @@
+.hero_agencies_img {
+    width: 100%;
+    max-width: 470px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    object-fit: cover;
+    height: 600px;
+}
+
+.agencies_green_leaf {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 250px;
+    transform: rotate(80deg);
+    z-index: 40;
+}
+
+
+.agency_green_leaf {
+    position: absolute;
+    width: 20vw;
+    max-width: 295px;
+    transform-style: preserve-3d;
+    top: -54px;
+    right: -10%;
+    transform: rotateX(180deg)rotateY(0)rotate(250deg)
+}
+
+.optimize_leaf {
+    position: absolute;
+    z-index: 1;
+    top: -200px;
+    left: -260px;
+    transform: rotate(77deg);
+}
