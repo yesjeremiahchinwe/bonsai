@@ -2,6 +2,8 @@ import "./scss/styles.scss"
 import "./scss/small_businesses.scss"
 import "./scss/agencies.scss"
 import "./scss/freelancers.scss"
+import "./scss/pricing.scss"
+import { yearlyOffer, monthlyOffer } from "./utils/pricing_offers"
 
 const menuButton = document.querySelector(".menuButton")
 const mobileNav = document.querySelector(".mobile_nav")
@@ -170,3 +172,32 @@ document.addEventListener("scroll", () => {
         cardHead.classList.add("desktop_border")
     }
 })
+
+
+const offerContainer = document.querySelector(".offer_container")
+const toggleContainer = document.querySelector(".toggle_container")
+const toggleMonthly = document.querySelector(".toggle_monthly")
+const toggleYearly = document.querySelector(".toggle_yearly")
+
+
+let toggleOffer = true
+
+if (toggleOffer) {
+    offerContainer.innerHTML = yearlyOffer()
+    toggleYearly.classList.add("background_toggle")
+}
+
+toggleContainer.addEventListener("click", () => {
+    toggleOffer = !toggleOffer
+    
+    if (toggleOffer) {
+        offerContainer.innerHTML = yearlyOffer()
+        toggleMonthly.classList.remove("background_toggle")
+        toggleYearly.classList.add("background_toggle")
+    } else {
+        offerContainer.innerHTML = monthlyOffer()
+        toggleYearly.classList.remove("background_toggle")
+        toggleMonthly.classList.add("background_toggle")
+    }
+})
+

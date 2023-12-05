@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -7,7 +8,7 @@
     <title>Bonsai Clone | With Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/0ccf93aea0.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ccf93aea0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -574,260 +575,112 @@
 
 
     <main class="bg-white">
-        <section class="small_business_hero p-4 py-lg-2 ">
-            <div class="hero_bg_img"></div>
+        <section class="pricing_hero p-4 py-lg-2 ">
+            <h2 class="hero-header fw-bolder text-center">Pick the best plan for your business</h2>
 
-            <img src="./small_business_assets/tree_leave.webp" alt="A green leave" class="d-none d-lg-block agencies_green_leaf">
+            <div class="toggle_container">
+                <div class="toggle_monthly">Monthly</div>
 
-            <div class="small_business_content">
-                <h2 class="hero-header fw-bolder text-center text-lg-start ">Business Software</h2>
-                <h2 class="hero-header fw-bolder text-center text-lg-start ">for Creative and digital agencies</h2>
-                <p class="text-center text-lg-start">Win more clients, deliver great projects, streamline your processes and more with Bonsai.</p>
+                <div class="toggle_yearly">
+                    <small>Yearly</small>
 
-                <div
-                    class="d-flex flex-column flex-sm-row align-items-center align-items-sm-start py-2 gap-3 mx-auto justify-content-center justify-content-lg-start ">
-                    <div>
-                        <button class="button_one">Start free</button>
-                        <small class="d-flex flex-column bonus_text">
-                            <span>"Free 7-day trial."</span>
-                            <span>"No credit card required."</span>
-                        </small>
-                    </div>
-
-                    <button class="button_two">Book a demo</button>
-                </div>
-            </div>
-
-            <div class="position-relative d-none d-lg-flex small_business_images">
-                <div class="position-relative image-wrapper overflow-hidden ">
-                    <img src="./agencies_assets/group_of_workers.jpeg"
-                        alt="Colleages looking at the screen of a computer" class="hero_agencies_img">
-                </div>
-
-                <div class="notification_container">
-                    <div class="notification">
-                        <img src="./home_page_assets/notification_icon.svg" alt="Notification Icon">
-
-                        <div class="d-flex flex-column align-items-start ">
-                            <small class="fw-semibold  ">+ $1,500</small>
-                            <small class="fw-bolder">Invoice paid</small>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="notification_container_two">
-                    <div class="notification">
-                        <img src="./home_page_assets/notification_icon_two.svg" alt="Notification Icon">
-
-                        <div class="d-flex flex-column align-items-start ">
-                            <small class="fw-semibold  ">New client</small>
-                            <small class="fw-bolder">Intake form completed</small>
-                        </div>
-
+                    <div class="yearly_block">2 months for free
                     </div>
                 </div>
             </div>
         </section>
 
-        <img src="./small_business_assets/tree_branch.webp" alt="A tree branch" class="tree_branch">
 
-        <!-- ------------------ Features Overview Section ---------------------- -->
-        <section class="small_business_feature">
-            <h2>Save time on admin and grow your business</h2>
-
-            <img src="./agencies_assets/agency_dashboard.png" alt="Agency dashboard" class="bonsai_dashboard">
-        </section>
+        <!-- ---------------------- Pricing Section ------------------------ -->
+        <article class="offer_container"></article>
 
 
         <!-- ------------------- Benefits Section ---------------------- -->
-        <section class="benefits_section">
-            <article>
-                <img src="./home_page_assets/paper_icon.svg" alt="Paper with dollar sign">
-
-                <div>
-                    <h5>Invoices</h5>
-                    <p>Simple invoicing that takes you seconds, not days.</p>
-                </div>
-            </article>
+        <section class="adds_ons">
+            <h2>Take it to the</h2>
+            <h2>next level with add-ons</h2>
 
             <article>
-                <img src="./small_business_assets/user_cicon.svg" alt="User Icon">
-
-                <div>
-                    <h5>Collaboration</h5>
-                    <p>Manage collaborators and assign each to projects and tasks.</p>
-                </div>
-            </article>
-
-            <article>
-                <img src="./home_page_assets/paper_money_icon.svg" alt="Send Logo">
-
-                <div>
-                    <h5>Contracts</h5>
-                    <p>Secure new clients with lawyer-vetted, ready-to-use templates.</p>
-                </div>
-            </article>
-
-            <article>
-                <img src="./home_page_assets/document_icon.svg" alt="Group users icon">
-
-                <div>
-                    <h5>Forms</h5>
-                    <p>Attract new leads with forms and turn them into new clients</p>
-                </div>
-            </article>
-
-            <article>
-                <img src="./home_page_assets/timer_icon.svg" alt="Document">
-
-                <div>
-                    <h5>Time tracking</h5>
-                    <p>Track all your billable hours and add them invoices.</p>
-                </div>
-            </article>
-
-            <article>
-                <img src="./home_page_assets/activity_icon.svg" alt="Activity Icon">
-
-                <div>
-                    <h5>Finance tracking</h5>
-                    <p>Keep track of your business&apos;s financial health.</p>
-                </div>
-            </article>
-        </section>
-
-
-        <!-- ------------------------ Testimonials Section ---------------------- -->
-        <section class="small_business_testimonials">
-            <article class="testimonial_wrapper">
-                <img loading="lazy" height="" width="527" src="https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d2d82c4a6b01eaaa98f8_20230907T0140-97b04b45-9d39-43b4-ab75-eff907b349ab.jpeg" alt="" sizes="100vw" srcset="https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d2d82c4a6b01eaaa98f8_20230907T0140-97b04b45-9d39-43b4-ab75-eff907b349ab-p-500.jpeg 500w, https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d2d82c4a6b01eaaa98f8_20230907T0140-97b04b45-9d39-43b4-ab75-eff907b349ab.jpeg 836w" class="image persona-banner new">
-
-                <div class="testimony">
+                <div class="card-outlined">
                     <div>
-                        <p>"We're a small agency and Bonsai keeps everything streamlined and running smoothly for us. Our clients appreciate the ease of use with contracts and invoices.</p>
-
-                            <p>I often get asked what software we use because people are so impressed!"</p>
+                        <h5>Team Seat</h5>
+                        <p>Invite teammates to collaborate on projects, track time and manage clients.
+                        </p>
                     </div>
 
-                    <small>Maeve, Co-Founder&nbsp;of Picante Collective</small>
+                    <h4>$10 <span>/month</span></h4>
+                </div>
+
+                <div class="card-outlined">
+                    <div>
+                        <h5>Bonsai Tax</h5>
+                        <p class="centered">Track expenses, identify write-offs, and estimate quarterly taxes easily.
+                        </p>
+
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <h4>$10 <span>/month</span></h4>
                 </div>
             </article>
         </section>
 
 
-        <!-- ------------------- Contract Section ---------------------- -->
-        <section class="small_business_contract">
-            <article class="contract_wrapper">
-                <img src="./small_business_assets/contract.png" alt="Contract Dashboard">
-
-                <div class="booking_content">
-                    <h2>Professional and trusted contracts</h2>
-                    <p>✓ Send, modify and e-Sign engagement letters.</p>
-                    <p>✓ Collect upfront deposits at the start of projects.</p>
-                    <p>✓ Save time with our legally vetted contract templates.</p>
-
-                    <button>Get started</button>
+        <!-- --------------------- Frequently Asked Question ------------------- -->
+        <div class="frequently_asked_questions">
+            <h2>Frequently asked questions</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How does the free trial work?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>When you start you sign up, your trial begin and you get full, unlimited access to Bonsai
+                                for 7 days. After the 7 days, you'll be prompted to choose a plan and enter your credit
+                                card details to continue using Bonsai.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-        </section>
 
-
-        <!-- ------------------ Client Section ---------------------- -->
-        <section class="small_business_contract position-relative ">
-            <article class="contract_wrapper flex-column-reverse flex-lg-row-reverse client_wrapper">
-                <img src="./agencies_assets/edit_invoice.png" alt="Contract Dashboard">
-
-                <div class="client_content">
-                    <h2>Simple, flexible invoicing</h2>
-                    <p>✓ Create and send invoices in minutes.</p>
-                    <p>✓ Automatic reminders get you paid on time.</p>
-                    <p>✓ Simple payments for your clients.</p>
-
-                    <button>Get started</button>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Can I change my plan anytime?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Yes, you can upgrade, downgrade or cancel your plan at any time via your Subscription
+                                settings.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
 
-            <img src="./agencies_assets/greened_leaf.webp" alt="A green leaf" class="optimize_leaf d-none d-lg-block">
-        </section>
-
-
-        <!-- ---------------- Simple Invoicing Section ------------------- -->
-        <section class="small_business_contract">
-            <article class="contract_wrapper">
-                <img src="./agencies_assets/start_timer.png" alt="Contract Dashboard">
-
-                <div class="contract_content">
-                    <h2>Keep projects and clients organized</h2>
-                    <p>✓ Centralize project information in one place.</p>
-                    <p>✓ Keep clients organized and up-to-date.</p>
-                    <p>✓ Use task management to stay organized.</p>
-
-                    <button>Get started</button>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Is my Bonsai subscription tax deductible?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Yes, the IRS allows for tax deduction for software you use to run your business. Bonsai's
+                                expense tracking even automatically categorizes your subscription as a deductible
+                                software expense.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-        </section>
+            </div>
 
-
-        <!-- --------------- Optimize Section -------------------- -->
-        <section class="small_business_contract position-relative ">
-            <article class="contract_wrapper flex-column-reverse flex-lg-row-reverse client_wrapper">
-                <img src="./agencies_assets/checklist.png" alt="Contract Dashboard">
-
-                <div class="client_content">
-                    <h2>Assign your team to clients and tasks</h2>
-                    <p>✓ Add collaborators to a client, project or a task.</p>
-                    <p>✓ Set up reminders for each of your team members.</p>
-                    <p>✓ See where collaborators spend their billable hours.</p>
-
-                    <button>Get started</button>
-                </div>
-            </article>
-
-            <img src="./agencies_assets/greened_leaf.webp" alt="A green leaf" class="optimize_leaf d-none d-lg-block">
-        </section>
-
-
-        <!-- ---------------- Booking Section --------------------- -->
-        <section class="small_business_contract">
-            <article class="contract_wrapper">
-                <img src="./agencies_assets/proposal.jpeg" alt="Contract Dashboard">
-
-                <div class="booking_content">
-                    <h2>Win more work with proposals</h2>
-                    <p>✓ Create and send on brand proposals, contracts, and invoices. </p>
-                    <p>✓ Templates for Proposals, Contracts, Invoices.</p>
-                    <p>✓ Integrated e-Signing.</p>
-
-                    <button>Get started</button>
-                </div>
-            </article>
-        </section>
-
-
-        <!-- ----------------------- Expense Income ---------------------- -->
-        <section class="expense_income_section position-relative ">
-            <article class="expense_wrapper">
-                <img alt="" loading="lazy" src="https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d35d8edfe23bc1f0abe1_20230907T0142-495e39dc-787e-4512-8bbf-5b6945e066e0.png" sizes="100vw" srcset="https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d35d8edfe23bc1f0abe1_20230907T0142-495e39dc-787e-4512-8bbf-5b6945e066e0-p-500.png 500w, https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d35d8edfe23bc1f0abe1_20230907T0142-495e39dc-787e-4512-8bbf-5b6945e066e0.png 842w" class="image _5">
-
-                <h2>Business reporting</h2>
-                <p>Visualize your income and expense data and make informed business decisions for your agency.</p>
-
-                <button>Get started</button>
-            </article>
-
-            <article class="expense_wrapper">
-                <img loading="lazy" height="310" alt="" src="https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d3691e593eeabde473ed_20230907T0143-a1ae0ada-e2ef-408e-b378-332eb868daee.png" sizes="(max-width: 479px) 75vw, (max-width: 991px) 84vw, 27vw" srcset="https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d3691e593eeabde473ed_20230907T0143-a1ae0ada-e2ef-408e-b378-332eb868daee-p-500.png 500w, https://assets-global.website-files.com/637e5892fb4b6db88a62cc0a/64f9d3691e593eeabde473ed_20230907T0143-a1ae0ada-e2ef-408e-b378-332eb868daee.png 749w" class="image _5">
-
-                <h2>Expense tracking</h2>
-                <p>Keep track of all expenses made by every collaborator in your business and keep accounting and tax filing clean.</p>
-
-                <button>Get started</button>
-            </article>
-
-            <img src="./agencies_assets/greened_leaf.webp" alt="A green leaf" class="agency_green_leaf d-none d-lg-block">
-        </section>
-
+            <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/63d94c7a62e51410f00e2adc_Branch_3.webp" loading="lazy" width="794.5" sizes="(max-width: 991px) 100vw, 794.5px" alt="" srcset="https://assets-global.website-files.com/635ac9564cc3682ce1536786/63d94c7a62e51410f00e2adc_Branch_3-p-500.webp 500w, https://assets-global.website-files.com/635ac9564cc3682ce1536786/63d94c7a62e51410f00e2adc_Branch_3-p-800.webp 800w, https://assets-global.website-files.com/635ac9564cc3682ce1536786/63d94c7a62e51410f00e2adc_Branch_3-p-1080.webp 1080w, https://assets-global.website-files.com/635ac9564cc3682ce1536786/63d94c7a62e51410f00e2adc_Branch_3.webp 1446w" class="image-absolute">
+        </div>
 
 
         <!-- -------------------- Number of Users ---------------------- -->
@@ -889,8 +742,9 @@
         <section class="support_container">
             <img src="./home_page_assets/customer_support.webp" alt="">
 
-            <img src="./home_page_assets/greened_leaf.webp" alt="A green leaf" class="home_green_leaf d-none d-lg-block">
-            
+            <img src="./home_page_assets/greened_leaf.webp" alt="A green leaf"
+                class="home_green_leaf d-none d-lg-block">
+
             <article class="finance_container">
                 <div class="wrapper">
                     <h5>Need help? We&apos;ll</h5>
@@ -1153,8 +1007,9 @@
         </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-<script type="module" src="/main.js"></script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script type="module" src="/main.js"></script>
 </body>
+
 </html>

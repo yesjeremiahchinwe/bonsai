@@ -8,7 +8,8 @@ export default defineConfig({
                 main: resolve(__dirname, "index.html"),
                 small_businesses: resolve(__dirname, "small_businesses.html"),
                 agencies: resolve(__dirname, "agencies.html"),
-                freelancers: resolve(__dirname, "freelancers.html")
+                freelancers: resolve(__dirname, "freelancers.html"),
+                pricing: resolve(__dirname, "pricing.html")
             }
         }
     }
