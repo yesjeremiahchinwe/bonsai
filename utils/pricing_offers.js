@@ -1,3 +1,5 @@
+import icon from "../agencies_assets/checker.svg"
+
 export const yearlyOffer = () => {
     
     return `
@@ -18,47 +20,47 @@ export const yearlyOffer = () => {
 
         <ul class="plan_benefits">
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>All Templates</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Unlimited Clients & Projects</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Invoicing & Payments</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Proposal & Contracts</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Scheduling</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Tasks & Time Tracking</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Client CRM</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Forms & Questionnaires</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Expense Tracking</small>
             </li>
         </ul>
@@ -85,42 +87,42 @@ export const yearlyOffer = () => {
 
             <ul class="plan_benefits">
                 <li class="everything_in_plan">
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Everything in Starter, plus:</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Remove Bonsai Branding</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Workflow Automations</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Branded Client Portal</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Unlimited Scheduling Events</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>QuickBooks Integration</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Calendly Integration</small>
                 </li>
 
                 <li>
-                    <img src="./agencies_assets/checker.svg" alt="Check mark">
+                    <img src="${icon}" alt="Check mark">
                     <small>Zapier Integration</small>
                 </li>
             </ul>
@@ -152,32 +154,32 @@ export const yearlyOffer = () => {
 
         <ul class="plan_benefits">
             <li class="everything_in_plan">
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Everything in Professional, plus:</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Subcontractor Management</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Hiring Agreement Templates (1099 contractors)</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Subcontractor Onboarding</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Talent Pool</small>
             </li>
 
             <li>
-                <img src="./agencies_assets/checker.svg" alt="Check mark">
+                <img src="${icon}" alt="Check mark">
                 <small>Unlimited Subcontractors</small>
             </li>
         </ul>
