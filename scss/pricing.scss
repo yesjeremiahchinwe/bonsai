@@ -350,14 +350,11 @@ $accordion-icon-active-color: #22ad01;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        height: 100%;
-        overflow-y: scroll;
 
         .accordion-header {
             padding: 1rem 0 2rem;
 
             .accordion-button {
-                width: 100%;
                 font-size: 1.25rem;
                 color: #003c2f;
                 outline: none;
@@ -366,6 +363,7 @@ $accordion-icon-active-color: #22ad01;
                 padding: 1rem 0 0;
                 gap: 0.5rem;
                 font-weight: 700;
+                background-color: transparent;
 
                 &:focus {
                     border: 0 transparent;
