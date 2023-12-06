@@ -643,6 +643,7 @@ body {
             }
 
             .sign_up_container {
+                // width: f;
                 display: none;
                 align-items: center;
                 border-radius: 30px;
@@ -712,7 +713,7 @@ body {
             margin: 0 0 5rem;
             overflow-x: hidden;
             padding: 1rem 0 2rem;
-            min-height: 50vh;
+            min-height: 30vh;
 
             h2 {
                 text-align: center;
@@ -746,6 +747,18 @@ body {
                 right: 0;
                 margin: 1rem auto;
                 box-shadow: 0 0 20px 7px rgba(0, 0, 0, .1);
+            }
+        }
+
+        @media screen and (min-width: 525px) {
+            .features_section_container {
+                min-height: 50vh;
+            }
+        }
+
+        @media screen and (min-width: 760px) {
+            .features_section_container {
+                min-height: 60vh;
             }
         }
 
@@ -1027,7 +1040,7 @@ body {
 
                 .card {
                     background-color: transparent;
-                    padding: 0 32px;
+                    padding: 0 19px;
                     color: white;
                     border: 0 transparent;
 
@@ -1068,6 +1081,7 @@ body {
                     justify-content: space-between;
                     align-items: center;
                     gap: 2rem;
+                    padding: 0 32px;
                 }
 
                 img {
@@ -1079,7 +1093,7 @@ body {
         .financies_section {
             margin: 3rem auto;
             color: #003c2f;
-            padding: 1rem;
+            padding: 1rem 2rem;
             max-width: 1300px;
 
             h3 {
@@ -1251,14 +1265,12 @@ body {
             background-image: url(../home_page_assets/background_pattern.webp);
             object-fit: cover;
             background-repeat: no-repeat;
-            min-height: 100vh;
             width: 100%;
 
             .content {
                 display: flex;
                 flex-direction: column;
-                gap: 2rem;
-                padding: 1rem 0;
+                padding: 2rem 0;
                 justify-content: space-between;
 
                 h2 {
@@ -1361,7 +1373,7 @@ body {
                 .content {
                     min-height: 100vh;
                     z-index: 30;
-                    padding: 5rem 0;
+                    padding: 4rem 0;
 
                     h2 {
                         width: 50%;
@@ -1423,7 +1435,7 @@ body {
 
         .support_container {
             margin: 2rem auto;
-            padding: 1rem;
+            padding: 1rem 2rem;
             display: flex;
             flex-direction: column;
             gap: 2rem;
@@ -1560,8 +1572,9 @@ body {
 
                 h4 {
                     font-weight: 700;
-                    font-size: 1rem;
+                    font-size: 1.25rem;
                     padding-bottom: 0.75rem;
+                    color: #003c2f;
                 }
 
                 ul {
@@ -1576,9 +1589,9 @@ body {
                         a {
                             display: inline-block;
                             padding: 0.15rem 0;
-                            color: #65816d;
+                            color: #003c2f;
                             font-size: 0.88rem;
-                            font-weight: 600;
+                            font-weight: 400;
 
                             &:hover {
                                 color: #22ad01;

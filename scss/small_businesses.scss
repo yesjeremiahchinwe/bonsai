@@ -146,6 +146,8 @@
     z-index: 1;
 }
 
+
+
 @media screen and (min-width: 540px) {
     .button_two {
         max-width: 200px;
@@ -531,6 +533,8 @@
         font-size: 2rem;
         line-height: 130%;
         color: #003c2f;
+        max-width: 450px;
+        margin: 0 auto;
         font-weight: 700;
         padding-top: 80px;
         text-align: center;
@@ -541,12 +545,15 @@
         background-image: url("../small_business_assets/medium_bg_pattern.webp");
         width: 100%;
         border-radius: 40px;
-        padding: 50px 90px 70px;
+        padding: 50px 20px 70px;
 
         img {
+            display: block;
             width: 100%;
             height: 100%;
+            max-width: 500px;
             max-height: 310px;
+            margin: 0 auto;
             object-fit: scale-down;
             border-radius: 10px;
         }
@@ -560,6 +567,7 @@
             padding: 1rem 0;
             margin: 1rem auto;
             text-align: center;
+            max-width: 400px;
         }
 
         button {

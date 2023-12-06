@@ -18,6 +18,53 @@
     top: 0;
 }
 
+.small_business_content {
+
+    form {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        box-shadow: 0 0 20px 7px rgba(0, 0, 0, .1);
+        max-width: 400px;
+        position: relative;
+        margin: 1rem auto;
+
+        input {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            border: 1px solid gray;
+            outline: none;
+            padding: 0.75rem 0 0.75rem 1.25rem;
+            border: 0 transparent;
+            flex-grow: 1;
+            border-radius: 30px;
+        }
+
+        button {
+            padding: 0.75rem 1.75rem;
+            min-width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            border: 0 transparent;
+            border-radius: 30px;
+            background-color: #22ad01;
+            font-weight: 600;
+            color: white;
+            flex: 0 1 auto;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: rgb(31, 116, 10)
+            }
+        }
+    }
+}
+
 .collaboration_feature {
 
     margin: 2rem auto;
@@ -86,7 +133,9 @@
         flex-direction: column;
         align-items: center;
         width: 90%;
+        max-width: 1300px;
         margin: 2rem auto;
+        padding: 1rem;
         gap: 2rem;
 
         .content {
@@ -94,7 +143,7 @@
             h3 {
                 font-weight: 700;
                 color: #003c2f;
-                font-size: 2.25rem;
+                font-size: 2rem;
                 line-height: 100%;
                 margin: 20px 0 10px;
             }
@@ -171,13 +220,10 @@
     margin-bottom: 100px;
 
     img {
-        min-width: 300px;
-        max-width: 348px;
-        min-height: 200px;
-        max-height: 270px;
+        width: 100%;
         height: 100%;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
     }
 
     .mary_testimony {
@@ -193,6 +239,7 @@
 
 .empty_bar {
     width: 95%;
+    max-width: 1300px;
     margin: 0 auto;
     display: block;
     background-color: #ddd;
@@ -204,11 +251,12 @@
 
 .explore_features {
     font-size: 2.5rem;
-    line-height: 1.25rem;
+    line-height: 3rem;
     color: #003c2f;
     font-weight: 700;
     padding: 1rem 0 0.5rem;
     text-align: center;
+    margin: 1rem auto;
 }
 
 
@@ -216,6 +264,8 @@
 .collaboration_expense {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     width: 90%;
     max-width: 1300px;
@@ -237,7 +287,7 @@
         max-width: 500px;
         max-height: 700px;
         border-radius: 40px;
-        padding: 100px 90px 100px;
+        padding: 100px 30px 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -249,6 +299,7 @@
             letter-spacing: 0;
             font-size: 1.15rem;
             font-weight: 400;
+            max-width: 500px;
             line-height: 120%;
             text-align: center;
         }
@@ -280,12 +331,31 @@
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+    .collaboration_expense {
+
+        .expense_wrapper {
+            padding: 100px 60px 100px;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
     .small_business_content {
         margin: 6rem 0;
         position: relative;
+    }
+
+    .background_image_pattern {
+
+        img {
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 30px;
+            min-width: 300px;
+            max-width: 348px;
+            min-height: 200px;
+            max-height: 348px;
+        }
     }
 
     .collaboration_feature {
@@ -326,6 +396,10 @@
                     right: -25%;
                 }
             }
+
+            h3 {
+                font-size: 2.25rem;
+            }
         }
 
         .background {
@@ -345,9 +419,19 @@
         }
     }
 
+    .explore_features {
+        max-width: 1300px;
+        width: 30%;
+    }
+
     .collaboration_expense {
         width: 80%;
         flex-direction: row;
         gap: 4rem;
     }
+}
+
+.frequently_asked_questions {
+    max-width: 1300px;
+    margin: 0 auto;
 }

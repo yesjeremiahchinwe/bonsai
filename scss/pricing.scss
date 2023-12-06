@@ -271,13 +271,12 @@ $accordion-icon-active-color: #22ad01;
     h2 {
         width: 50%;
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 2.5rem;
         width: 90%;
         margin: 1.5rem auto;
         text-align: center;
         color: #003c2f;
         font-weight: 700;
-        line-height: 0%;
     }
 
     .card-outlined {
@@ -336,8 +335,9 @@ $accordion-icon-active-color: #22ad01;
 
 
 .frequently_asked_questions {
-    margin: 0 0 5rem;
+    margin: 0 0 8rem;
     padding: 0 1rem;
+    max-width: 1300px;
 
     .image-absolute {
         display: none;
@@ -345,7 +345,7 @@ $accordion-icon-active-color: #22ad01;
 
     .accordion {
         background-color: white;
-        margin: 0 auto;
+        margin: 0 auto 4rem;
         padding: 2rem 0;
         display: flex;
         flex-direction: column;
@@ -406,6 +406,7 @@ $accordion-icon-active-color: #22ad01;
 
 @media screen and (min-width: 640px) {
     .offer_container {
+        max-width: 1300px;
         margin: 3rem auto;
         grid-template-columns: repeat(2, 1fr);
 
