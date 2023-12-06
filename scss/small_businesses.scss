@@ -4,15 +4,17 @@
     max-width: 1300px;
 
     h2 {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 700;
     }
 
     p {
         font-size: 1rem;
         font-weight: 500;
-        padding: 1.25rem 0;
+        padding: 1.5rem 0;
         max-width: 80%;
+        color: #65816d;
         margin: 0 auto;
     }
 }
@@ -94,6 +96,7 @@
             width: 35px;
         }
     }
+
 }
 
 .button_one {
@@ -159,10 +162,11 @@
     }
 
     .small_business_hero {
-        width: 85%;
+        width: 90%;
         display: flex;
         align-items: center;
         margin: 0rem auto;
+        justify-content: space-between;
         gap: 2rem;
 
         .small_business_images {
@@ -170,17 +174,17 @@
         }
 
         h2 {
-            font-size: 3.5rem;
-            line-height: 3.5rem;
+            font-size: 4rem;
+            line-height: 4rem;
             width: 85%;
 
             &:first-of-type {
-                margin-top: 3rem;
+                margin-top: 0rem;
             }
         }
 
         p {
-            padding: 2rem 0;
+            padding: 1.5rem 0;
             font-weight: 500;
             width: 70%;
             margin: 0;
@@ -192,7 +196,7 @@
     }
 
     .tree_branch {
-        top: 92%;
+        top: 90%;
         left: -160px;
     }
 }
@@ -200,7 +204,7 @@
 
 /* ------------------- Features Section ------------------------ */
 .small_business_feature {
-    margin: 0 auto;
+    margin: 2rem auto;
     max-width: 1300px;
     display: flex;
     flex-direction: column;
@@ -331,7 +335,12 @@
         font-weight: 500;
 
         &:last-of-type {
-            margin-top: -0.5rem;
+            margin-top: 0;
+
+            a {
+                color: #22ad01;
+                text-decoration: underline;
+            }
         }
     }
 
@@ -341,6 +350,11 @@
         padding: 1.5rem;
         margin: 1rem 0 0.5rem;
         display: block;
+
+        a {
+            color: #22ad01;
+            text-decoration: underline;
+        }
     }
 }
 
@@ -357,6 +371,7 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: flex-start;
+            padding-top: 2rem;
         }
 
         p {
@@ -369,7 +384,8 @@
 
         img {
             min-width: 300px;
-            min-height: 350px;
+            max-width: 348px;
+            min-height: 348px;
             height: 100%;
             border-top-right-radius: 0;
             border-bottom-left-radius: 30px;
@@ -558,7 +574,7 @@
             transition: background-color .3s;
             display: block;
             margin: 0.75rem auto 0;
-    
+
             &:hover {
                 background-color: #1e7a07;
             }

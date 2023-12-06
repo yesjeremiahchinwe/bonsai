@@ -23,7 +23,7 @@ body {
     width: 100%;
     min-height: 100vh;
     min-width: 320px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     header {
         position: sticky;
@@ -541,11 +541,12 @@ body {
             h2 {
                 font-size: 2.5rem;
                 line-height: 2.5rem;
+                font-weight: 700;
                 width: 90%;
                 margin: 0 auto;
 
                 &:last-of-type {
-                    margin-top: -0.1rem;
+                    margin-top: 0rem;
                 }
             }
 
@@ -557,7 +558,7 @@ body {
                 width: 350px;
                 height: 520px;
                 display: block;
-                margin: 0 auto
+                margin: 0 auto;
             }
 
             .sec_hero_image_wrapper {
@@ -762,8 +763,8 @@ body {
                 min-height: 100vh;
 
                 h2 {
-                    font-size: 3.5rem;
-                    line-height: 3.5rem;
+                    font-size: 4rem;
+                    line-height: 4rem;
                     margin: 0;
                 }
 
@@ -1693,7 +1694,7 @@ body {
             .get_started_container {
                 width: 80%;
                 max-width: 1300px;
-                margin: 9rem auto;
+                margin: 9rem auto 14rem;
 
                 .content_wrapper {
                     flex-direction: row;

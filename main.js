@@ -3,6 +3,9 @@ import "./scss/small_businesses.scss"
 import "./scss/agencies.scss"
 import "./scss/freelancers.scss"
 import "./scss/pricing.scss"
+import "./scss/coaching.scss"
+import "./scss/collaboration.scss"
+
 import { yearlyOffer, monthlyOffer } from "./utils/pricing_offers"
 
 const menuButton = document.querySelector(".menuButton")

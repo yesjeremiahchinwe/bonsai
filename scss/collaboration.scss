@@ -1,0 +1,353 @@
+.image-absolute._35 {
+    width: 100%;
+    height: auto;
+    min-width: 788px;
+    object-fit: contain;
+    border-radius: 10px;
+    left: -82px;
+    top: -282px;
+}
+
+.filter-box-shadow {
+    filter: drop-shadow(-30px 24px 11px #0000001A);
+}
+
+.image-absolute {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.collaboration_feature {
+
+    margin: 2rem auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.25rem;
+        width: 85%;
+        text-align: center;
+        color: #003c2f;
+        font-weight: 700;
+    }
+
+    article {
+        width: 90%;
+        margin: 2rem auto;
+        display: grid;
+        column-gap: 1rem;
+        row-gap: 2rem;
+
+        .feat_box {
+            min-height: auto;
+            border: 1px solid #d3dcd4;
+            border-radius: 20px;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+            display: flex;
+            color: #003c2f;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 17px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 1.25rem;
+                margin: 20px 0 10px;
+            }
+
+            p {
+                color: #003c2f;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+.why_choose_us {
+    position: relative;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 2rem auto;
+        gap: 2rem;
+
+        .content {
+
+            h3 {
+                font-weight: 700;
+                color: #003c2f;
+                font-size: 2.25rem;
+                line-height: 100%;
+                margin: 20px 0 10px;
+            }
+
+            p {
+                font-weight: 500;
+                color: #086450;
+                line-height: 140%;
+                margin: 25px 0;
+                width: 100%;
+                max-width: 390px;
+            }
+
+            button {
+                color: #fff;
+                text-align: center;
+                background-color: #22ad01;
+                border-style: none;
+                border-radius: 36px;
+                padding: 12px 33px 14px;
+                font-weight: 500;
+                line-height: 140%;
+                transition: background-color .3s;
+            }
+        }
+    }
+
+    .background {
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        position: relative;
+        bottom: 0;
+        background-color: #f2f7f2;
+        height: 100%;
+        width: 80%;
+
+        .big_image {
+            width: 90%;
+            height: auto;
+            object-fit: contain;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            z-index: 1;
+            margin: 2rem 0 0 2rem;
+            box-shadow: 0 0 20px 7px rgba(0, 0, 0, .1);
+        }
+
+        .small_image {
+            display: none;
+            z-index: 1;
+            border-radius: 10px;
+            box-shadow: 0 0 20px 7px rgba(0, 0, 0, .1);
+
+        }
+
+        .small_green_left {
+            position: absolute;
+            top: 47%;
+            left: -30%;
+            width: 250px;
+            transform: rotate(75deg);
+            z-index: 40;
+        }
+    }
+}
+
+.background_image_pattern {
+    background-color: #f2f7f2;
+    background-image: url("../coaching_assets/background_image_pattern.svg");
+    background-position: 0 0;
+    background-size: auto;
+    padding: 1px 0;
+    margin-bottom: 100px;
+
+    img {
+        min-width: 300px;
+        max-width: 348px;
+        min-height: 200px;
+        max-height: 270px;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+    }
+
+    .mary_testimony {
+        color: #22ad01;
+    }
+
+    p {
+        color: #003c2f;
+        font-weight: 400;
+        font-size: 1.35rem;
+    }
+}
+
+.empty_bar {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: start;
+    font-weight: 500;
+    color: #65816d;
+}
+
+.explore_features {
+    font-size: 2.5rem;
+    line-height: 1.25rem;
+    color: #003c2f;
+    font-weight: 700;
+    padding: 1rem 0 0.5rem;
+    text-align: center;
+}
+
+
+
+.collaboration_expense {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    max-width: 1300px;
+    margin: 5rem auto 10rem;
+
+    h2 {
+        font-size: 2rem;
+        line-height: 130%;
+        color: #003c2f;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .expense_wrapper {
+        background-color: #f2f7f2;
+        background-image: url("../small_business_assets/medium_bg_pattern.webp");
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        max-height: 700px;
+        border-radius: 40px;
+        padding: 100px 90px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        p {
+            color: #003c2f;
+            letter-spacing: 0;
+            font-size: 1.15rem;
+            font-weight: 400;
+            line-height: 120%;
+            text-align: center;
+        }
+
+        button {
+            color: #fff;
+            text-align: center;
+            background-color: #22ad01;
+            border-style: none;
+            border-radius: 36px;
+            padding: 12px 33px 14px;
+            font-weight: 500;
+            line-height: 140%;
+            transition: background-color .3s;
+            display: block;
+
+            &:hover {
+                background-color: #1e7a07;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    .collaboration_feature {
+
+        article {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .small_business_content {
+        margin: 6rem 0;
+        position: relative;
+    }
+
+    .collaboration_feature {
+
+        h2 {
+            font-size: 2.5rem;
+            line-height: 2.75rem;
+            width: 60%;
+            margin: 4rem auto 0;
+        }
+
+        article {
+            width: 85%;
+            margin: 4rem auto;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .why_choose_us {
+
+        article {
+            width: 80%;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            &:nth-of-type(2) {
+                flex-direction: row;
+
+                .small_image {
+                    top: 35%;
+                }
+            }
+
+            &:last-of-type {
+
+                .small_image {
+                    top: 30%;
+                    right: -25%;
+                }
+            }
+        }
+
+        .background {
+            position: relative;
+            width: 42%;
+
+            .big_image {
+                width: 93%;
+            }
+
+            .small_image {
+                display: block;
+                position: absolute;
+                top: 15%;
+                right: -15%;
+            }
+        }
+    }
+
+    .collaboration_expense {
+        width: 80%;
+        flex-direction: row;
+        gap: 4rem;
+    }
+}
