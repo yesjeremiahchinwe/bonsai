@@ -111,7 +111,7 @@ body {
     .sub_header_links {
         width: 93%;
         max-width: 1300px;
-        margin: 0 auto;
+        margin: 0 0 0 0.85rem;
     }
 
     .secondary {
@@ -643,7 +643,6 @@ body {
             }
 
             .sign_up_container {
-                // width: f;
                 display: none;
                 align-items: center;
                 border-radius: 30px;

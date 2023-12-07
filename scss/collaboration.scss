@@ -4,8 +4,20 @@
     min-width: 788px;
     object-fit: contain;
     border-radius: 10px;
-    left: -82px;
+    left: -15px;
     top: -282px;
+}
+
+.collaboration_hero_img {
+    width: 100%;
+    height: auto;
+    min-width: 788px;
+    object-fit: contain;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: -282px;
+    left: 20px
 }
 
 .filter-box-shadow {
@@ -27,7 +39,7 @@
         justify-content: center;
         border-radius: 30px;
         box-shadow: 0 0 20px 7px rgba(0, 0, 0, .1);
-        max-width: 400px;
+        max-width: 450px;
         position: relative;
         margin: 1rem auto;
 
@@ -66,7 +78,6 @@
 }
 
 .collaboration_feature {
-
     margin: 2rem auto;
     max-width: 1300px;
     display: flex;
@@ -118,6 +129,13 @@
             }
         }
     }
+
+    &.payments {
+
+        h2 {
+            width: 85%;
+        }
+    }
 }
 
 
@@ -143,7 +161,7 @@
             h3 {
                 font-weight: 700;
                 color: #003c2f;
-                font-size: 2rem;
+                font-size: 2.25rem;
                 line-height: 100%;
                 margin: 20px 0 10px;
             }
@@ -203,7 +221,7 @@
         .small_green_left {
             position: absolute;
             top: 47%;
-            left: -30%;
+            left: -32%;
             width: 250px;
             transform: rotate(75deg);
             z-index: 40;
@@ -231,7 +249,7 @@
     }
 
     p {
-        color: #003c2f;
+        color: #506456;
         font-weight: 400;
         font-size: 1.35rem;
     }
@@ -330,6 +348,13 @@
         article {
             grid-template-columns: repeat(2, 1fr);
         }
+
+        &.payments {
+
+            h2 {
+                width: 70%;
+            }
+        }
     }
 
     .collaboration_expense {
@@ -344,6 +369,10 @@
     .small_business_content {
         margin: 6rem 0;
         position: relative;
+
+        form {
+            margin: 1rem 0;
+        }
     }
 
     .background_image_pattern {
@@ -372,6 +401,13 @@
             margin: 4rem auto;
             grid-template-columns: repeat(3, 1fr);
         }
+
+        &.payments {
+
+            h2 {
+                width: 30%;
+            }
+        }
     }
 
     .why_choose_us {
@@ -380,6 +416,10 @@
             width: 80%;
             flex-direction: row-reverse;
             justify-content: space-between;
+
+            .content {
+                max-width: 40%;
+            }
 
             &:nth-of-type(2) {
                 flex-direction: row;
@@ -395,10 +435,6 @@
                     top: 30%;
                     right: -25%;
                 }
-            }
-
-            h3 {
-                font-size: 2.25rem;
             }
         }
 

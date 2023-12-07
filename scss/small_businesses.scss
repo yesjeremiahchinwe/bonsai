@@ -48,9 +48,9 @@
 .green_leaf {
     position: absolute;
     top: 25%;
-    left: 48%;
+    left: 44%;
     width: 250px;
-    transform: rotate(80deg);
+    transform: rotate(75deg);
     z-index: 40;
 }
 
@@ -176,9 +176,9 @@
         }
 
         h2 {
-            font-size: 4rem;
-            line-height: 4rem;
-            width: 85%;
+            font-size: 3.85rem;
+            line-height: 3.85rem;
+            width: 95%;
 
             &:first-of-type {
                 margin-top: 0rem;
