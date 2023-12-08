@@ -18,7 +18,7 @@ This project is a clone of the Bonsai official website having a total of 10 page
 
 ## Links
 
-- Live Site URL: [Vercel](https://getlinked-mu.vercel.app/)
+- Live Site URL: [Vercel](https://bonsai-cloned.vercel.app/)
 
 ## Built With
 
