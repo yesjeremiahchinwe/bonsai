@@ -144,6 +144,7 @@ groupFour.addEventListener("mouseover", () => {
 
     headerGroupFour.classList.remove("header_group_four")
     resourceUl.classList.remove("show_resource_ul")
+    headerEl.classList.add("add_bg_color")
 })
 
 
@@ -161,12 +162,14 @@ groupSix.addEventListener("mouseover", () => {
 
     headerGroupFour.classList.remove("header_group_four")
     resourceUl.classList.remove("show_resource_ul")
+    headerEl.classList.add("add_bg_color")
 })
 
 
 
 document.addEventListener("scroll", () => {
     const scrollY = document.documentElement.scrollTop
+
     if (scrollY > 20 && cardHead.clientWidth >= 992) {
         headerEl.classList.add("border_bottom")
         cardHead.classList.remove("desktop_border")

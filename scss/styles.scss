@@ -26,12 +26,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     header {
-        position: sticky;
         background-color: #FFFFFF;
-        top: 0;
-        left: 0;
         width: 100%;
         z-index: 50;
+        position: sticky;
+        top: 0;
+        left: 0;
 
         a {
             text-decoration: none;
@@ -48,7 +48,7 @@ body {
         }
 
         &.border_bottom {
-            box-shadow: 0px 7px 10px 6px rgba(171, 185, 180, .3);
+            box-shadow: 0px 20px 7px rgba(171, 185, 180, .1);
             background-color: white;
 
             &.card-header {
@@ -111,7 +111,8 @@ body {
     .sub_header_links {
         width: 93%;
         max-width: 1300px;
-        margin: 0 0 0 0.85rem;
+        margin: 0 auto;
+        padding-left: 0;
     }
 
     .secondary {
@@ -171,7 +172,7 @@ body {
                     box-shadow: none;
                 }
 
-                  &:not(.collapsed) {
+                &:not(.collapsed) {
                     background-color: transparent;
                     box-shadow: none;
 
@@ -179,7 +180,7 @@ body {
                         background-image: none;
                         transform: rotate(0deg);
                     }
-                    
+
                 }
 
                 &::after {
@@ -318,7 +319,7 @@ body {
         position: fixed;
         width: 100%;
         top: 5%;
-        padding: 6rem 0 2rem;
+        padding: 4.5rem 0 2rem;
         z-index: 47;
         box-shadow: 0px 15px 20px 12px rgba(171, 185, 180, .3);
     }
@@ -329,7 +330,7 @@ body {
         position: fixed;
         width: 100%;
         top: 5%;
-        padding: 6rem 0 2rem;
+        padding: 4.5rem 0 2rem;
         z-index: 47;
         box-shadow: 0px 15px 20px 12px rgba(171, 185, 180, .3);
     }
@@ -351,7 +352,7 @@ body {
         position: fixed;
         width: 100%;
         top: 5%;
-        padding: 6rem 0 2rem;
+        padding: 4.5rem 0 2rem;
         z-index: 47;
         box-shadow: 0px 15px 20px 12px rgba(171, 185, 180, .3);
     }
@@ -462,12 +463,17 @@ body {
                     }
                 }
             }
+
+            .see_all_templates {
+                color: #22ad01;
+            }
         }
     }
 
     @media screen and (min-width: 992px) {
         .desktop_border {
             border-bottom: 1px solid #abb9b44d;
+            z-index: 40;
         }
 
         .header_group_one {
@@ -508,6 +514,10 @@ body {
         .show_resource_ul {
             display: block;
             transition: top 0.1s ease-in-out;
+        }
+
+        .add_bg_color {
+            background-color: #FFFFFF;
         }
     }
 
@@ -709,10 +719,11 @@ body {
         /* --------------------- Features Section ---------------------- */
         .features_section_container {
             position: relative;
-            margin: 0 0 5rem;
             overflow-x: hidden;
-            padding: 1rem 0 2rem;
-            min-height: 40vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
 
             h2 {
                 text-align: center;
@@ -725,41 +736,33 @@ body {
             }
 
             .background_pattern {
+                width: 100%;
+                padding-bottom: 345px;
+                object-fit: cover;
+                vertical-align: middle;
                 position: relative;
-                bottom: 0;
-                right: 0%;
+                top: 0;
                 bottom: 0%;
                 left: 0%;
-                object-fit: cover;
-                width: 100%;
+                right: 0%;
                 overflow: hidden;
             }
 
             .bonsai_dashboard {
-                z-index: 5;
-                max-width: 1000px;
                 width: 90%;
+                height: auto;
+                max-width: 1100px;
                 border-radius: 12px;
-                position: absolute;
-                top: 1em;
-                left: 0;
-                right: 0;
-                margin: 1rem auto;
+                position: relative;
+                top: 5em;
+                left: auto;
+                right: auto;
+                z-index: 5;
+                margin: 0 auto;
                 box-shadow: 0 0 20px 7px rgba(0, 0, 0, .1);
             }
         }
 
-        @media screen and (min-width: 525px) {
-            .features_section_container {
-                min-height: 60vh;
-            }
-        }
-
-        @media screen and (min-width: 760px) {
-            .features_section_container {
-                min-height: 60vh;
-            }
-        }
 
         @media screen and (min-width: 992px) {
             .hero {
@@ -821,10 +824,12 @@ body {
 
         @media screen and (min-width: 992px) {
             .features_section_container {
-                margin: 0 auto 8rem;
-                padding-bottom: 18rem;
-                z-index: 2;
-                min-height: 70vh;
+                padding-bottom: 40px;
+                margin-bottom: 100px;
+
+                .background_pattern {
+                    height: 50em;
+                }
 
                 h2 {
                     font-size: 3rem;
@@ -832,13 +837,12 @@ body {
 
                 .bonsai_dashboard_mobile {
                     position: absolute;
-                    right: -1%;
-                    left: auto;
-                    top: 19em;
-                    z-index: 5;
-                    width: 25%;
+                    width: 350px;
+                    top: 259px;
+                    left: 890px;
                     display: block;
-                    margin-bottom: 5rem;
+                    right: 0;
+                    z-index: 10;
                 }
             }
 
@@ -895,7 +899,7 @@ body {
         .management_mobile_section {
             .accordion {
                 width: 90%;
-                margin: 4rem auto;
+                margin: 0 auto;
                 padding-bottom: 2rem;
                 display: flex;
                 flex-direction: column;
@@ -1026,12 +1030,34 @@ body {
 
             .carousel-indicators {
                 gap: 1rem;
-                margin-bottom: 1.5rem;
+                margin-bottom: 3rem;
+
+                .wrap {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
+                    
+                    button {
+                        flex: 1 1 auto;
+                        width: 100%;
+                    }
+
+                    span {
+                        padding-left: 0.25rem;
+                    }
+                }
+
+                [data-bs-target] {
+                    flex: 0 1 auto;
+                    margin: 0 0;
+                }
 
                 .active {
                     background-color: #22ad01;
                     flex: 1 1 auto;
                     transition: all 0.5s ease;
+                    width: 100%;
                 }
             }
 
@@ -1054,7 +1080,7 @@ body {
 
                     small {
                         display: block;
-                        padding: 1rem 0;
+                        padding: 1rem 0 3rem;
                         font-size: 0.88rem;
                     }
                 }
@@ -1064,6 +1090,7 @@ body {
                 width: 33%;
             }
         }
+
 
         @media screen and (min-width: 992px) {
             .carousel {
@@ -1155,11 +1182,13 @@ body {
 
                     img {
                         display: block;
-                        width: 90%;
+                        width: 80%;
                         max-width: 500px;
+                        top: 1em;
                         z-index: 10;
                         margin: 0 auto;
                         position: relative;
+                        box-shadow: 0px 20px 10px rgba(0, 0, 0, .1);
                     }
                 }
             }
@@ -1226,7 +1255,9 @@ body {
 
                         img {
                             display: block;
-                            width: 90%;
+                            width: 80%;
+                            max-width: 500px;
+                            top: 1em;
                             z-index: 10;
                             margin: 0 auto;
                             position: relative;
@@ -1235,11 +1266,12 @@ body {
                         .notification_container {
                             display: flex;
                             align-items: center;
+                            justify-content: space-between;
                             gap: 1rem;
                             position: absolute;
                             z-index: 10;
                             padding: 0.75rem 1rem;
-                            border-radius: 30px;
+                            border-radius: 10px;
                             margin-top: -30%;
                             background-color: #F8F8F8;
                             color: #003c2f;
@@ -1250,7 +1282,9 @@ body {
                             }
 
                             img {
+                                display: block;
                                 width: 25px;
+                                margin-top: -2rem;
                             }
                         }
                     }
@@ -1263,6 +1297,7 @@ body {
             overflow-x: hidden;
             background-image: url(../home_page_assets/background_pattern.webp);
             object-fit: cover;
+            background-size: contain;
             background-repeat: no-repeat;
             width: 100%;
 
@@ -1270,6 +1305,8 @@ body {
                 display: flex;
                 flex-direction: column;
                 padding: 2rem 0;
+                max-width: 1300px;
+                margin: 0 auto;
                 justify-content: space-between;
 
                 h2 {
@@ -1291,6 +1328,7 @@ body {
                 position: relative;
                 border-radius: unset;
                 background-color: transparent;
+                background-image: none;
 
                 img {
                     width: 100%;
@@ -1350,7 +1388,6 @@ body {
 
         @media screen and (min-width: 992px) {
             .experiences_container {
-                max-width: 1300px;
                 margin: 0 auto 4rem;
 
                 .carousel {
@@ -1383,7 +1420,6 @@ body {
                     img {
                         height: 100%;
                         width: 100%;
-
                     }
                 }
             }

@@ -71,8 +71,8 @@
     </ul>
 
 
-     <!-- --------------- Products Navbar for Desktop ----------------- -->
-     <nav>
+    <!-- --------------- Products Navbar for Desktop ----------------- -->
+    <nav>
         <ul class="products_ul">
             <div class="wrapper_container">
                 <div>
@@ -306,6 +306,10 @@
                             </li>
                         </div>
                     </div>
+
+                    <a href="#"
+                        class="text-decoration-underline block text-center w-100 mx-auto my-3 see_all_templates">See all
+                        templates</a>
                 </article>
             </div>
         </ul>
@@ -653,12 +657,17 @@
 
         <!-- ------------------ Features Overview Section ---------------------- -->
         <section class="features_section_container">
-            <img src="./home_page_assets/background_pattern.webp" alt="Background pattern" class="background_pattern">
+            <div class="position-absolute top-0 d-flex flex-column justify-content-center align-items-center">
+                <img src="./home_page_assets/dashboard_bonsai.webp" alt="Bonsai dashboard" class="bonsai_dashboard">
 
-            <img src="./home_page_assets/dashboard_bonsai.webp" alt="Bonsai dashboard" class="bonsai_dashboard">
+                <img src="./home_page_assets/ba_phone.webp" alt="Mobile version of bonsai dashboard"
+                    class="d-none d-lg-block bonsai_dashboard_mobile">
+            </div>
 
-            <img src="./home_page_assets/ba_phone.webp" alt="Mobile version of bonsai dashboard"
-                class="d-none d-lg-block bonsai_dashboard_mobile">
+            <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635e8d2a61099e05c32ae3e6_background.webp"
+                loading="lazy" sizes="100vw"
+                srcset="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635e8d2a61099e05c32ae3e6_background-p-500.webp 500w, https://assets-global.website-files.com/635ac9564cc3682ce1536786/635e8d2a61099e05c32ae3e6_background-p-800.webp 800w, https://assets-global.website-files.com/635ac9564cc3682ce1536786/635e8d2a61099e05c32ae3e6_background-p-1080.webp 1080w, https://assets-global.website-files.com/635ac9564cc3682ce1536786/635e8d2a61099e05c32ae3e6_background.webp 1440w"
+                alt="" class="background_pattern">
         </section>
 
 
@@ -911,14 +920,25 @@
         <!-- --------------- Carosel Testimonials ------------------ -->
         <div id="carouselExampleDark" class="carousel slide">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
 
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
+                <div class="wrap">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <span class="">01</span>
+                </div>
 
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <div class="wrap">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2" class="parent_two"></button>
+                    <span class="">02</span>
+                </div>
+
+                <div class="wrap">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <span>03</span>
+                </div>
             </div>
 
 
